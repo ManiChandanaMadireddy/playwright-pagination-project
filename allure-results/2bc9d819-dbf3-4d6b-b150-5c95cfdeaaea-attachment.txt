@@ -1,0 +1,5 @@
+Checking selector ".rt-tbody .rt-tr-group" → total: 0
+Checking selector "table tbody tr" → total: 0
+Used selector: null
+✅ Rendered Rows: 0
+❌ Rows after invalid search: 0

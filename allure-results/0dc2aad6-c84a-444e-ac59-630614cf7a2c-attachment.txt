@@ -1,0 +1,5 @@
+Checking selector ".rt-tbody .rt-tr-group" → total: 0
+Checking selector "table tbody tr" → total: 3
+Used selector: table tbody tr
+✅ Rendered Rows: 3
+✅ Rows after clearing search: 3
