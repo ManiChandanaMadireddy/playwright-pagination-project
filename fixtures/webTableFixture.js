@@ -2,6 +2,7 @@
 const base = require('@playwright/test');
 const { WebTablesPage } = require('../pages/webTablesPage');
 
+
 // ✅ Extend Playwright test with custom fixture
 exports.test = base.test.extend({
 

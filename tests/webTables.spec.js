@@ -25,7 +25,7 @@ test.describe('DemoQA Web Tables - CRUD + Validation', () => {
 // ✅ Edge Case - Empty Search
 test('search with no results', async ({webTable }) => {
   await webTable.searchUser('NoUser123');
-
+  //const rows = await paginationPage.getRowCount();
   const rows = await webTable.tableRows.count();
   expect(rows).toBe(0);
   });
@@ -52,7 +52,7 @@ test('Delete user and validate removal', async ({webTable }) => {
 
   // ✅ ✅ ADD VALIDATION HERE
   const rowCount = await webTable.tableRows.count();
-
+ // const rows = await paginationPage.getRowCount();
   if (rowCount === 0) {
     console.log("✅ No rows present → User successfully deleted");
     await expect(rowCount).toBe(0);
